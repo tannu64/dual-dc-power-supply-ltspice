@@ -37,5 +37,6 @@ This project demonstrates the design and simulation of a dual DC power supply wi
 ## Simulation Environment
 All simulations were conducted using LTSpice with detailed parameters captured in the report.
 
-## Designed By
-Chris Sam 
+## Designed By:
+
+Engineer Tanveer Hussain
