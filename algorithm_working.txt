@@ -1,0 +1,18 @@
+block 1(block name : horizontal divider)
+input: rectangular pulse 32768
+output:1 Hz goes to block 1
+block 2(block name: minutes counter)
+input: from block1 1Hz
+output :goes to block 3
+block 3(block name: hour counter)
+input: from block 2
+block 4
+block 5
+block 6
+block 7
+block 8
+block 9
+block 10
+block 11
+
+

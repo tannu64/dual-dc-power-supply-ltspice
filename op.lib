@@ -1,0 +1,3 @@
+.SUBCKT YourOpAmp 1 2 3
+XOP1 1 2 3 OPAMP Aol=10000 Meg=1000 Ro=200 Rout=200 Cload=25nF
+.ENDS

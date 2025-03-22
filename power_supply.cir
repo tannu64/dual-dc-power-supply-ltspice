@@ -1,0 +1,23 @@
+* G:\Freelancing Career\Fiver Projects\PROJECT36_CHRIS_SAM\power_supply.asc
+V1 N001 N007 SINE(0 170 60)
+L1 N001 N007 1m Rser=1
+LS1 0 N002 70µ
+LS2 N003 0 70µ
+D1 -15V N002 1N4002
+D2 N002 +15V 1N4002
+D3 -15V N003 1N4002
+D4 N003 +15V 1N4002
+C1 +15V N004 1000µF
+C2 N004 -15V 1000µF
+C3 +15V N005 10µF
+C4 N005 -15V 10µF
+C5 +15V N006 0.1µF
+C6 N006 -15V 0.1µF
+.model D D
+.lib C:\Users\Tanveer Husain\AppData\Local\LTspice\lib\cmp\standard.dio
+.tran 100m
+K. L1 LS1 LS2 1
+.model 1N4002 D (Is=14.11n N=1.984 Rs=33.89E-3 Ikf=94.81 Xti=3 Eg=1.110 Cjo=51.17E-12 M=.2762 Vj=.3905 Fc=.5 Isr=100.0E-12 Nr=2 Bv=100.1 Ibv=10 Tt=4.761E-6 Iave=1 Vpk=100 mfg=GI type=silicon)
+.probe tran V(003)
+.backanno
+.end
